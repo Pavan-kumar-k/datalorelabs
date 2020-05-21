@@ -1,7 +1,7 @@
 # datalorelabs
 
 run main.py
-in browser http://localhost:5000/
+and goto browser http://localhost:5000/
 
 
 Note if any error occur in webpage 
