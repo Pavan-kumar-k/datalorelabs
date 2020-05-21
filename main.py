@@ -3,7 +3,9 @@ from flask import Flask, render_template, redirect, url_for, request,Markup,make
 import pandas as pd
 from nsedata import *
 
+nseindia.data()
 app = Flask(__name__)
+
 @app.route('/', methods=['GET', 'POST'])
 def app1():
     symbols=nseindia.symbol()
